@@ -11,6 +11,7 @@ public class Basetest {
 	
 	public static void init() throws Exception
 	{
+		String projectPath;
 		fis=new FileInputStream(projectPath+"//test.properties");
 		p=new Properties();
 		p.load(fis);
